@@ -10,19 +10,19 @@
     <p>Aborto Legal</p>
     <img src="aborto100x100.png" alt="some text" width=100 height=96> 
     <script>
-        window.watsonAssistantChatOptions = {
-            integrationID: "428ccddb-5098-47d6-a0ee-36fd09f20972", // The ID of this integration.
-            region: "us-south", // The region your integration is hosted in.
-            serviceInstanceID: "cabd2227-27c6-43d4-a10a-b642219f5a0a", // The ID of your service instance.
-            onLoad: function(instance) { instance.render(); }
-          };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
-            (window.watsonAssistantChatOptions.clientVersion || 'latest') +
-            "/WatsonAssistantChatEntry.js"
-          document.head.appendChild(t);
-        });
-      </script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "428ccddb-5098-47d6-a0ee-36fd09f20972", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "cabd2227-27c6-43d4-a10a-b642219f5a0a", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+      (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+      "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
