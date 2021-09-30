@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+body{
+    background: #ffffff;
+    color: white;
+}
+/*
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+header .logo{
+    position: absolute;
+    width: 224px;
+    height: 173.95px;
+    left: 34px;
+    top: 15px;
+}
+
+header nav a{
+    position: absolute;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #0F0F0F;
+}
+
+header nav a:hover{
+    color: #5F3DBE;
+}
+
+
+.Inicio{
+    width: 68px;
+    height: 33px;
+    left: 336px;
+    top: 60px;
+}
+
+.Sobre{
+    width: 150px;
+    height: 33px;
+    left: 470px;
+    top: 60px;
+}
+
+.Rita{
+    width: 260px;
+    height: 46px;
+    left: 662px;
+    top: 60px;
+}
+
+.Links{
+    width: 362px;
+    height: 46px;
+    left: 988px;
+    top: 60px;
+}
+
+.logo-principal{
+    background: url('/img/background.png');
+    position: absolute;
+    width: 998px;
+    height: 701px;
+    left: 0px;
+    top: 251px;
+}
+
+.titulo{
+    position: absolute;
+    width: 611px;
+    height: 47px;
+    left: 680px;
+    top: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #5F3DBE;
+}
+
+.descricao{
+    position: absolute;
+    width: 630px;
+    height: 210px;
+    left: 680px;
+    top: 150px;
+    text-align: justify;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 42px;
+    color: #0F0F0F;
+}
+
+.folhas{
+    position: absolute;
+    float: right;
+    margin-bottom: 0;
+    width: 143px;
+    height: 175px;
+    bottom: 0px;
+    right: 0px;
+    top: 900px;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    width: 70%;
+    margin: 20px 20px 20px 20px;
+}
