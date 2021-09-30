@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Mulheres pelo Aborto</title>
+</head>
+    <header>
+        <div class="container">
+            <img class="logo" src="./img/logo.png" alt="Aborto Legal">
+            <h3 class="logo-texto">Aborto Legal</h3>
+            <nav class="menu">
+                <a class="Inicio" href="#">Início</a>
+                <a class="Sobre" href="#">Sobre Nós</a>
+                <a class="Rita" href="#" >Converse com a Rita</a>
+                <a class="Links" href="#" >Links úteis</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="logo-principal">
+            <div class="container">
+                <h3 class="titulo">Precisamos falar sobre o aborto</h3>
+                <p class="descricao">As informações são muitas vezes desencontradas, o que torna ainda mais difícil o processo para o aborto legal. Converse com a Rita, ela poderá orientá-la sobre todo o processo e tirar suas dúvidas acerca do assunto. A intenção é que você saiba dos seus direitos. Estamos aqui para ajudá-la!</p>
+            </div>
+        </div>
+        <div class="folhas">
+            <img class="logo" src="./img/folhas.png" alt="folhas">
+        </div>
+        <script>
+            window.watsonAssistantChatOptions = {
+                integrationID: "428ccddb-5098-47d6-a0ee-36fd09f20972", // The ID of this integration.
+                region: "us-south", // The region your integration is hosted in.
+                serviceInstanceID: "cabd2227-27c6-43d4-a10a-b642219f5a0a", // The ID of your service instance.
+                onLoad: function(instance) { instance.render(); }
+              };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+                (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+                "/WatsonAssistantChatEntry.js"
+              document.head.appendChild(t);
+            });
+          </script>
+    </main>
+</body>
+</html>
