@@ -70,7 +70,7 @@ header nav a:hover{
 }
 
 .logo-principal{
-    background: url('/img/background.png');
+    background: url('./img/background.png');
     position: absolute;
     width: 998px;
     height: 701px;
